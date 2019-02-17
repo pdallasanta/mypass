@@ -654,6 +654,6 @@ int remove_record (Record_List *rl, char *alias)
     if (f)
         rl->record_count--;
 
-	rl->total_length -= rec_len;
+    rl->total_length -= rec_len;
     return f ^ 1;
 }
